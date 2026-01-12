@@ -1,0 +1,9 @@
+Concluciones: 
+- El framework de karate es mas efciente para las preubas de servicios REST sin necesidad de escribir codigo complejo en Java. 
+- La integracion de maven y junit 5 facilita la ejecucion de pruebas automatizadas. 
+- Las pruebas automatizadas validadn correctamente el ciclo completo de la vida de una mascota dentro del sistema.
+
+Hallazgos: 
+- La API no llega a validar los IDs de las mascotas lo que genera sobreescritura de los datos si se llegan a reutilizar los identificadores. 
+- No hay control de autenticacion para las operaciones, representando un riesgo de seguridad. 
+- La API responde bien al codigo http en las operaciones probadas. 

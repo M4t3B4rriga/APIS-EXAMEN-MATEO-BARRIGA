@@ -38,6 +38,12 @@ mvn test
 Reportes:
 Abrir con liveServer o en Chrome. 
 
+Pruebas con CSV y JSON:
+![alt text](image-3.png)
+
+
+## Pruebas anterires.
+
 En la carpta target\karate-reports\karate-summary.html 
 ![alt text](image.png)
 

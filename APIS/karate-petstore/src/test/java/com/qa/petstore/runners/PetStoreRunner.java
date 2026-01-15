@@ -6,7 +6,6 @@ public class PetStoreRunner {
 
     @Karate.Test
     Karate runAll() {
-        return Karate.run("classpath:com/qa/petstore")
-                .relativeTo(getClass());
+        return Karate.run("classpath:com/qa/petstore/petstore.feature");
     }
 }
